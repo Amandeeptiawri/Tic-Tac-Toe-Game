@@ -104,7 +104,7 @@ let fillCount=0;
 gameGrid.forEach((box)=>{
     if(box !== "")
     fillCount++;
-});
+}); 
 
 if(fillCount==9){
     gameInfo.innerText="Game Tied !";
